@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>formulier</title>
+</head>
+<body>
+
+<div class="trashcan">
+<header>
+    <h1> formulier</h1>
+</header>
+
+<section class="formulier">
+<form action="http://www.savatarian.com/html5/form.php" method="post">
+    <ul>
+        <il>
+            <label for="voornaam">voornaam</label>
+            <input type="text" name="voornaam"/>
+        </il>
+
+        <il>
+            <label for="tussenvoegsel">tussenvoegsel</label>
+            <input type="text" name="tussenvoegsel"/>
+        </il>
+
+        <il>
+            <label for="achternaam">achternaam</label>
+            <input type="text" name="achternaam"/><Br>
+        </il>
+
+        <il>
+                <input type="radio" name="gender" value="man" checked> Man<br>
+                <input type="radio" name="gender" value="vrouw"> vrouw<br>
+        </il>
+
+        <il>
+            oogkleur<select>
+                <option value="blauw">blauw</option>
+                <option value="groen">groen</option>
+                <option value="bruin">bruin</option>
+            </select><br>
+        </il>
+
+        <il>
+            geboortedatum<input type="date" name="geboortenaam"/><br>
+        </il>
+
+        <il>
+            <textarea rows="7" cols="40">
+                omschrijving
+            </textarea>
+        </il>
+</section>
+
+<section class="keuze">
+    <input type="checkbox" name="kaas" value="kaas">kaas<br>
+    <input type="checkbox" name="brood" value="brood">brood<br>
+    <input type="checkbox" name="jam" value="jam">jam<br>
+    <input type="checkbox" name="pasta" value="pasta">pasta<br>
+</section>
+</div>
+<div class="clearfix"></div>
+</body>
+</html>
