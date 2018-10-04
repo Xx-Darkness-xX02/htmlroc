@@ -3,9 +3,14 @@
 }
 
 body {
-    background-color:rgb(250,241,234);
+
     font-family: 'Raleway', sans-serif;
 
+}
+
+
+div#wrapper{
+    background-color:rgb(250,241,234);
 }
 
 header{

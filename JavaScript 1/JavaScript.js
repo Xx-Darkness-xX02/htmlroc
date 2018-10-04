@@ -13,3 +13,5 @@ for(var i = 0; i < 10; i++) {
 }
 
 console.log("hallo wereld")
+
+document.getElementById("grote kop").innerHTML = mijnauto.kleur
