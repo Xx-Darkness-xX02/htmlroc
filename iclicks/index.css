@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+
+
+div#wrapper {
+    font-family: 'questrial' , sans-serif;
+
+}
+
+.logo{
+    width: 100%;
+}
+
+.nav{padding: 0px;}
+
+.navigatie {
+    background-color: rgb(61, 135, 255);
+    list-style:  none;
+    border-top: 1px solid white;
+    height: 22px;
+}
+
+a {
+   text-decoration: none;
+    color: white;
+    font-family: 'Black Han Sans' , sans-serif;
+    margin-left: 4px;
+
+}
+
+a:hover {
+    color: black;
+}
+
+
+footer {
+    background-color: rgb(7, 34, 61);
+}
+
+p2 {
+    color: white;
+}
+
+.footer {
+    list-style: none;
+    border-left: none;
+}
+
+.footertekst {
+    margin-bottom: 4px;
+    border:none;
+}
+
+/*tablet versie */
+
+@media all and (min-width: 550px){
+    .logo{
+        width: 355px;
+    }
+
+
+    .navigatie {
+        border: none;
+        display: inline-block;
+        background-color:rgb(61, 135, 255) ;
+    }
+
+    .nav{
+        text-align: left;
+        background-color: rgb(61, 135, 255)
+
+    ;
+    }
+
+
+    div#article{
+        width: 50%;
+        background-color: orange;
+        float: left;
+        height: 300px;
+        text-align: center;
+        border-right: 3px solid white;
+    }
+
+    div#image{
+    width: 50%;
+        float: left;
+
+        }
+
+    div#image2 {
+        width: 50%;
+        float: left;
+        border-right: 3px solid white;
+    }
+
+    div#article2{
+        background-color: orange;
+        width: 50%;
+        float: left;
+        height: 300px;
+        text-align: center;
+    }
+
+    p{
+        margin-top: 75px;
+        margin-left: 5px;
+        margin-right: 5px;    }
+
+    footer{
+        clear: both;
+
+    }
+
+}
+
+/*einde tablet versie*/
+
+
+/*tablet landscape*/
+
+/*einde tablet landscape*/
+
+/*desktop*/
+@media all and (min-width: 1200px){
+    div#wrapper {
+       width:  1200px;
+        margin: auto;
+    }
+
+    header{
+        background-color: white;
+        height: 142px;
+
+    }
+
+    .logo{
+        margin-left: 320px;
+
+
+    }
+
+    nav{
+        background-color: white;
+
+    }
+    a {
+        margin-left: 94px;
+        text-align: center;
+    }
+
+
+    div#article{
+
+    }
+
+    div#image{
+
+    }
+
+    div#image2{
+
+    }
+
+    div#article2{
+
+    }
+
+}
