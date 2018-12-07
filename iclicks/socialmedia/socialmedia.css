@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 100%;
+}
+
+div#wrapper{
+    font-family: "noto sans TC", sans-serif;
+    font-weight: 400;
+    background-color: antiquewhite;
+    width: 100%
+}
+h2{
+    font-family: "noto sans TC", sans-serif;
+    font-weight: 700;
+    color:rgb(220, 106, 94);;
+}
+
+nav ul li{
+    background-color: rgb(61, 135, 255);
+    margin-top: 1px;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "Black Han Sans", sans-serif;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+.fblogo{
+    width: 100%;
+}
+
+.instalogo{
+    width: 100%;
+}
+
+.twitterlogo{
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(7, 34, 61);
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: quastrial,sans-serif;
+}
+
+footer ul li a:hover{
+    color: gold;
+}
+
+footer ul{
+    list-style: none;
+}
+
+@media all and (min-width: 550px ){
+
+    .logo {
+        width: 355px;
+    }
+
+    header{
+        background-color: white;
+    }
+
+    nav ul li a {
+        padding-left: 4px;
+    }
+
+    nav ul li {
+        text-align: left;
+        display: inline;
+    }
+
+    nav ul {
+        background-color:rgb(61, 135, 255) ;
+    }
+
+    div#twitter {
+        float: left;
+        width: 50%;
+        padding: 5px;
+    }
+
+    div#instagram{
+        float: right;
+        width: 50%;
+        padding: 5px;
+    }
+
+    div#facebook{
+        width: 60%;
+    }
+
+}
+
+/*einde tablet*/
+
+@media all and (min-width: 800px){
+  div#twitter{
+      width: 33%;
+  }
+
+  div#instagram{
+      width: 33%;
+  }
+
+  div#facebook{
+      width: 33%;
+      display: inline-block;
+     
+  }
+
+  footer{
+      clear: both;
+  }
+
+}
